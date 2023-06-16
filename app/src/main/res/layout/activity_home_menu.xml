@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeMenuActivity"
+    android:background="#D0DED8"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <Button
+        android:id="@+id/home_btn1"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="18dp"
+        android:backgroundTint="@color/white"
+        android:text="食材表"
+        android:textSize="26sp"
+        android:textColor="@color/buttonGreen"
+        android:onClick="onClick" />
+
+    <Button
+        android:id="@+id/home_btn2"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:backgroundTint="@color/white"
+        android:layout_marginTop="40dp"
+        android:text="食谱推荐"
+        android:textSize="26sp"
+        android:textColor="@color/buttonGreen"
+        android:onClick="onClick"/>
+
+
+    <Button
+        android:id="@+id/btn_setting"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="@color/white"
+        android:onClick="onClick"
+        android:text="个人信息"
+        android:textColor="@color/buttonGreen"
+        android:textSize="26sp" />
+
+    <Button
+        android:id="@+id/btn_about"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:backgroundTint="@color/white"
+        android:layout_marginTop="40dp"
+        android:text="关于本软件"
+        android:textSize="26sp"
+        android:textColor="@color/buttonGreen"
+        android:onClick="onClick"/>
+</LinearLayout>
